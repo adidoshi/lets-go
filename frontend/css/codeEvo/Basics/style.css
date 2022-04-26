@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.orange {
+  background-color: orange;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.box-model {
+  border: 2px solid red;
+  height: 50px;
+  width: 300px;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* element selector has the least specificity */
+h3 {
+  color: green;
+}
+
+/* more specific than class seclector */
+.sub-heading {
+  color: blue;
+}
+
+/* id is more specific than class */
+#sub {
+  color: orange;
+}
+
+/* inline styles are more specific */
+
+.inheritance {
+  color: orange;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+td {
+  text-align: center;
+  /* height: 50px; */
+  /* vertical-align: bottom; */
+}
+
+.position1 {
+  border: 2px solid red;
+  position: sticky;
+  top: 50px;
+  left: 50px;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.position2 {
+  border: 2px solid blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+/* Element postioned with respect to parent container is done by absolute positioning */
+
+/* relative units */
+/* rem unit -> takes font size of the root element */
+.em-container {
+  font-size: 20px;
+  height: 2em;
+}
+
+.em {
+  font-size: 1.5em;
+}
+
+.rem {
+  font-size: 2rem;
+  height: calc(50vh - 100px);
+  border: 2px solid black;
+}

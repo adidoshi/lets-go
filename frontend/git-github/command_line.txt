@@ -1,0 +1,25 @@
+// bash commands -
+
+pwd - present working directory 
+
+ls - list
+
+cd folderName/ - change directory
+
+cd - home
+
+cd.. - back 
+
+mkdir folderName - make directory
+
+touch newFileName.extension 
+
+rm fileName - delete file
+
+rm -rf folderName - remove directory
+
+clear - clean bash command
+
+commandName --help - manual
+
+For MAC: man commandName - manual

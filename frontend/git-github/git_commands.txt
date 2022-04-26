@@ -1,0 +1,63 @@
+// GIT
+
+git init - initialize a new repository in a directory or in an existing project
+
+git status - 
+
+git add . (all) or <fileName> - staging files
+
+git rm --cached <fileName> - unstage files
+
+git commit -m "initial commit" - commit with message
+
+git log - to check commit history 
+
+git log --oneline
+
+git checkout <commit id> - readonly at that point of commit
+
+git checkout master - again to the original top of stack code
+
+git revert <commit id> - reverts that commit (removes the file/changes made in that code, but keeps the commit in history & also creates a new revert commit history)
+
+git reset <commit id> --hard - goes back in time 
+
+// pushing a local repo to github
+git remote add origin <link> - alias
+
+git push origin master - pushes code to github
+
+// entire new repo 
+start with adding file & commiting 1 msg then same as above 
+
+// cloning from remote repo 
+git clone <link>
+
+git push origin master
+
+// branches
+git branch <branchName> - create new branch
+
+git branch -a - show branch list
+
+git checkout <branchName> - to switch bet branches
+
+git branch -d / -D <branchName> - delete a branch 
+
+git checkout -b <branchName> - creates a new branch as well as checkouts 
+
+git merge <branchName>
+
+// for conflicts 
+remove the unwanted lines 
+:wq
+
+// collab
+git pull origin master
+
+git push origin <branchName>
+
+compare pull request
+
+// forking
+form than clone

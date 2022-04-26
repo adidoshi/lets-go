@@ -1,0 +1,98 @@
+/* Flex container properties 
+display
+flex-direction - within which flex items are palced
+flex-wrap - wrapping of items within the container
+flex-flow - combination of(flex-direction & flex-wrap)
+column-gap 
+row-gap
+gap
+*/
+
+body {
+  margin: 0;
+}
+
+.container {
+  border: 6px solid black;
+  display: flex;
+  /* default value of flex direction is row */
+  /* row-reverse starts from right to left */
+  height: 400px;
+  /* flex-direction: column; */
+
+  /* nowrap in default for flex-wrap */
+  /* flex-wrap: wrap; */
+  /* flex-flow: flex-direction flex-wrap; */
+
+  /* flex-flow: row wrap; */
+
+  /* column-gap: 20px; */
+  /* row-gap: 30px; */
+
+  /* gap - row-gap column-gap */
+  /* gap: 40px 20px; */
+
+  /* justify-content: center; */
+  align-items: flex-end;
+  /* align-content: center; */
+}
+
+.flex-item {
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  /* flex: 1 0; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+}
+
+/* flex - short hand for 
+flex-grow, flex-shrink, flex-basis
+*/
+
+.item-1 {
+  background-color: greenyellow;
+  /* flex-basis: 200px; */
+  align-self: flex-start;
+}
+
+.item-2 {
+  background-color: orange;
+  align-self: center;
+}
+
+.item-3 {
+  background-color: maroon;
+  /* order - default is 0 */
+  /* order: 1; */
+  /* flex-shrink: 4; */
+}
+
+.item-4 {
+  background-color: blue;
+}
+
+.item-5 {
+  background-color: cyan;
+  /* default flex-grow is 0 */
+  /* flex-grow: 1; */
+}
+
+.item-6 {
+  background-color: red;
+  /* flex-grow: 3; */
+}
+
+.item-7 {
+  background-color: palevioletred;
+}
+
+.item-8 {
+  background-color: rgb(81, 255, 81);
+}
+
+.item-9 {
+  background-color: rgb(223, 255, 81);
+  /* flex-grow: 1; */
+}

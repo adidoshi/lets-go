@@ -1,0 +1,45 @@
+// all hooks
+useState - https://codesandbox.io/s/usestate-hook-q004s
+useEffect - https://codesandbox.io/s/useeffect-hook-rko8u
+useContext - https://codesandbox.io/s/usecontext-hook-e72cq
+useReducer - https://codesandbox.io/s/usereducer-hook-81kzn
+useReducer Fetch - https://codesandbox.io/s/fetch-data-using-usereducer-36sys
+context + reducer - https://codesandbox.io/s/usereducer-usecontext-2r3qj https://codesandbox.io/s/social-media-1-111jfx
+useCallback - https://codesandbox.io/s/usecallback-od8vl
+useMemo - https://codesandbox.io/s/usememo-hook-3p94q
+useRef - https://codesandbox.io/s/useref-hook-xzphu
+
+// custom hooks 
+https://usehooks.com/
+
+useAxios - https://dev.to/ms_yogii/useaxios-a-simple-custom-hook-for-calling-apis-using-axios-2dkj
+
+useAsync - https://codesandbox.io/s/int-1cb6y9
+
+useTitle - https://codesandbox.io/s/doc-title-custom-hook-b8wzm
+
+useCounter - https://codesandbox.io/s/counter-custom-hook-x7f94
+
+useInput - https://codesandbox.io/s/useinput-custom-hook-wzgn1
+
+https://www.30secondsofcode.org/react/t/hooks/p/1
+
+// theme context - 
+https://codesandbox.io/s/theme-usecontext-dp0nq?file=/src/ThemeContext.js
+
+// addToCart context + reducer 
+https://codesandbox.io/s/usereducer-hook-starter-forked-n48ig
+
+// stack in react 
+https://codesandbox.io/s/live-coding-exe2-1-j94cxe
+
+// redux toolkit - 
+https://codesandbox.io/s/todo-1-x0xwh3
+
+// react-redux
+https://codesandbox.io/s/e-comm-1-kl7eeu
+
+// normal useState prac - 
+https://stackblitz.com/edit/react-epq4zr
+
+https://stackblitz.com/edit/react-cyeein
